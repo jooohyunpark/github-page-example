@@ -33,6 +33,6 @@ export default {
   build: {},
 
   generate: {
-    dir: "doc",
+    dir: "docs",
   },
 };
