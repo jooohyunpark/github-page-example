@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "week2",
+    title: "demo-site",
     htmlAttrs: {
       lang: "en",
     },
@@ -42,11 +42,6 @@ export default {
 
   // https://nuxtjs.org/docs/directory-structure/dist/#the-dir-property
   generate: {
-    dir: "docs",
-  },
-
-  // https://nuxtjs.org/deployments/github-pages/
-  router: {
-    base: "/github-page-example/",
+    dir: "my-site",
   },
 };

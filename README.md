@@ -1,4 +1,4 @@
-# github-page-example
+# demo
 
 ## Build Setup
 

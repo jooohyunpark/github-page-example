@@ -1,28 +1,28 @@
 <template>
   <nav>
-    <h1>week 2</h1>
-    <NuxtLink to="/">Home</NuxtLink>
-    <span>/</span>
-    <NuxtLink to="/scss">scss</NuxtLink>
-    <span>/</span>
-    <NuxtLink to="/grid-system">Grid system</NuxtLink>
-    <span>/</span>
-    <NuxtLink to="/bootstrap-ui">Bootstrap UI</NuxtLink>
-    <span>/</span>
-    <NuxtLink to="/p5">p5</NuxtLink>
-    <span>/</span>
-    <NuxtLink to="/three">three</NuxtLink>
+    <div class="container">
+      <div class="row">
+        <div class="col nav-content">
+          <NuxtLink to="/"><h1>Demo site</h1></NuxtLink>
+          <NuxtLink to="/about">About</NuxtLink>
+        </div>
+      </div>
+    </div>
   </nav>
 </template>
 <script>
-export default {
-  name: "Nav",
-};
+export default {};
 </script>
 
-<style scoped>
-nav {
-  padding: 24px 0;
-  text-align: center;
+<style scoped lang="scss">
+.nav-content {
+  margin: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 32px;
+  }
 }
 </style>

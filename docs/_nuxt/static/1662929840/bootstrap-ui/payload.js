@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/bootstrap-ui", {data:[{}],fetch:{},mutations:void 0});
