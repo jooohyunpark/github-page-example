@@ -44,4 +44,9 @@ export default {
   generate: {
     dir: "docs",
   },
+
+  // https://nuxtjs.org/deployments/github-pages/
+  router: {
+    base: "/github-page-example/",
+  },
 };
