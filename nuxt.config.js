@@ -42,6 +42,6 @@ export default {
 
   // https://nuxtjs.org/docs/directory-structure/dist/#the-dir-property
   generate: {
-    dir: "my-site",
+    dir: "docs",
   },
 };
