@@ -47,6 +47,6 @@ export default {
 
   // https://nuxtjs.org/deployments/github-pages/
   router: {
-    base: "/github-page-example/",
+    base: "/wou-demo-site/",
   },
 };
