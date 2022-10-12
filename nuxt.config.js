@@ -18,7 +18,7 @@ export default {
       {
         rel: "icon",
         type: "image/x-icon",
-        href: "/wou-demo-site//favicon.ico",
+        href: "/wou-demo-site/favicon.ico",
       },
     ],
     script: [
